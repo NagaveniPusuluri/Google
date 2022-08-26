@@ -30,6 +30,13 @@ html,body{
 }
 a:hover{
     cursor: pointer;
+    
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: black;
 }
 .topimage{
     width: 20px;
@@ -48,7 +55,7 @@ a:hover{
     cursor: pointer;
     margin-top: -60px;
 }
-#searchbarcontainer{
+#searchbarcontainer {
     margin-top: 20px;
     text-align: center;
     position: relative;
@@ -79,10 +86,13 @@ a:hover{
     width: 500px;
     border-radius: 20px;
     border: 2px solid RGB(237, 236, 232);
-    box-shadow: 0 0 1px 1px RGB(194, 193, 190);
+    box-shadow: 0 0 1px 1px rgb(194, 193, 190);
     outline: 0px;
-    padding-left: 50px;
+    padding-left: 80px;
     padding-right: 30px;
+    font-size: 17px;
+    font-weight: bold;
+   
 }
 #addcontainer{
     margin-top: 50px;
@@ -94,8 +104,7 @@ a:hover{
     text-align: center;
     justify-content: center;
     margin-left: 600px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 10px;
 }
 #add img{
     text-align: center;
@@ -114,6 +123,8 @@ a:hover{
     border-radius: 30px;
     border:2px solid RGB(207, 203, 192);
     font-size: 12px;
+    color: blue;
+    text-align: center;
 }
 
 
